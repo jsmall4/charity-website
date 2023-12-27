@@ -1,0 +1,41 @@
+/* LandingPage.css */
+.landing-page {
+  position: relative;
+  overflow: hidden;
+  color: white; /* Set text color to white */
+  font-weight: bold; /* Make all text bold */
+}
+
+.background-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100; /* Ensure video is behind other content */
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the video */
+}
+
+/* If you have other specific elements you want to target, you can add them here. For example: */
+.landing-page h1,
+.landing-page h2,
+.landing-page h3,
+.landing-page h4,
+.landing-page h5,
+.landing-page h6,
+.landing-page p {
+  color: white; /* This ensures that all text elements are white */
+  font-weight: bold; /* This ensures that all text elements are bold */
+}
+
+/* If there are any elements you do not want to be white and bold, you can override them here */
+.landing-page .some-other-class {
+  color: initial;
+  font-weight: normal;
+}

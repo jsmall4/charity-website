@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutUs from './components/AboutUs';
-import HowToHelp from './components/HowToHelp';
-import LandingPage from './components/LandingPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutUs from "./components/AboutUs";
+import HowToHelp from "./components/HowToHelp";
+import LandingPage from "./components/LandingPage/LandingPage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -18,4 +18,3 @@ function App() {
 }
 
 export default App;
-
